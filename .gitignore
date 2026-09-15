@@ -1,0 +1,23 @@
+# Entorno virtual
+venv/
+.venv/
+env/
+
+# Cache y Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Datos privados y credenciales
+credentials/credentials.json
+credentials/*.json
+.env
+data/running.db
+data/*.db
+
+# Compilados e instaladores
+build/
+dist/
+*.spec
+*.exe
