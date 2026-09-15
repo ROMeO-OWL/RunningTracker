@@ -94,7 +94,7 @@ python main.py
 ## ⚙️ Generar Ejecutable Portable (.exe) con PyInstaller
 
 Para empaquetar la aplicación en un `.exe` totalmente independiente para Windows (incluyendo entornos `.env`, credenciales, recursos e importaciones dinámicas), ejecuta el siguiente comando:
-
+```bash
 ### 1. Instalar PyInstaller
 pip install pyinstaller
 
